@@ -154,7 +154,6 @@ const Header = ({setLanguage, language}) => {
             <div
               className="w-nav-overlay"
               id="w-nav-overlay-0"
-              onClick={handleMenu}
               style={{ height: "7295.27px", display: t ? 'block' : 'none' }}
             >
               <nav
@@ -169,7 +168,7 @@ const Header = ({setLanguage, language}) => {
                 <ul role="list" className="nav-menu-two w-list-unstyled" style={{background: "#000"}}>
                   <li style={{display: 'flex', flexDirection: "column"}}>
                     {lan[language].menu.map((item,idx) => (
-                      <Link to={item.href} spy={true} smooth={true} duration={500} className="nav-link" style={{cursor: 'pointer'}} key={idx}>
+                      <Link onClick={handleMenu} to={item.href} spy={true} smooth={true} duration={500} className="nav-link" style={{cursor: 'pointer'}} key={idx}>
                         {item.name}
                       </Link>
                     ))}
@@ -221,7 +220,9 @@ const Header = ({setLanguage, language}) => {
                           <div role="list" className="w-locales-items">
                             {lans.map((item,idx) => (
                               <span
-                                onClick={() => handleSelectLanguage(item.id, item.name)}
+                                onClick={() => {
+                                  handleSelectLanguage(item.id, item.name)
+                                  handleMenu()}}
                                 className="nav-link w-locales-item"
                                 id={item.id}
                                 key={idx}
