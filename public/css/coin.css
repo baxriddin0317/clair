@@ -1575,6 +1575,11 @@ html input[disabled] {
     grid-template-columns: 1fr;
   }
 
+  .security_image,
+  .security_content {
+    margin: 0 auto;
+  }
+
   .sc-address {
     font-size: 1rem;
   }
@@ -1631,6 +1636,14 @@ html input[disabled] {
 
   .footer-logo {
     display: block;
+  }
+
+  .footer-component {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .baby-sinclair {
