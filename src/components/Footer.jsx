@@ -11,6 +11,7 @@ const Footer = ({language}) => {
             id="w-node-c23411aa-4530-e93b-7a07-e0e307260fa1-85e878c5"
             href="#"
             className="footer-link inline"
+            onClick={() => window.location = 'mailto:contact@clairmeme.com'}
           >
             contact@clairmeme.com
           </a>
