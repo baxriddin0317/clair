@@ -473,7 +473,7 @@ export const privacyLan = {
         },
         {
           title: "Crypto Details:",
-          text: "such as your wallet addresses.",
+          text: "Such as your wallet addresses.",
         },
       ],
     },

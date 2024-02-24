@@ -171,9 +171,11 @@ const Header = ({setLanguage, language}) => {
                 <ul role="list" className="nav-menu-two w-list-unstyled" style={{background: "#000"}}>
                   <li style={{display: 'flex', flexDirection: "column"}}>
                     {lan[language].menu.map((item,idx) => (
-                      <Link onClick={handleMenu} to={item.href} spy={true} smooth={true} duration={500} className="nav-link" style={{cursor: 'pointer'}} key={idx}>
+                      path === '/' ? <Link to={item.href} spy={true} smooth={true} duration={500} className="nav-link" style={{cursor: 'pointer'}} key={idx}>
                         {item.name}
-                      </Link>
+                      </Link> : <a href={`/#${item.href}`} key={idx} className="nav-link">
+                      {item.name}
+                      </a>
                     ))}
                     <a
                       href="https://baby-sinclair.gitbook.io/docs/"
