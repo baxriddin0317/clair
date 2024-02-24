@@ -63,7 +63,7 @@ const Header = ({setLanguage, language}) => {
       >
         <div className="container">
           <div className="navbar-wrapper">
-            <a href="#hero-section" className="brand w-nav-brand">
+            <a href="/" className="brand w-nav-brand">
               <img
                 src="images/clair-logo-image.png"
                 alt="logo"

@@ -104,7 +104,7 @@ const Price = ({language}) => {
   }, [getEndTime.data]);
   
   return (
-    <section className="ico-section">
+    <section id="price" className="ico-section">
       <div data-aos="fade-up" className="w-layout-blockcontainer container w-container">
         <div className="ico-component">
           <h2 className="ico-h2">

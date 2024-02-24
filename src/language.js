@@ -11,7 +11,7 @@ export const lan = {
         href: "tokenomics",
       },
       {
-        name: "Security Section",
+        name: "Audit",
         href: "security-section",
       },
       {
@@ -123,7 +123,7 @@ export const lan = {
         href: "tokenomics",
       },
       {
-        name: "Sección de Seguridad",
+        name: "Auditoría",
         href: "security-section",
       },
       {
@@ -234,7 +234,7 @@ export const lan = {
         href: "tokenomics",
       },
       {
-        name: "सुरक्षा खंड",
+        name: "लेखा-परीक्षण",
         href: "security-section",
       },
       {

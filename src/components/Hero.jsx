@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import { lan } from "../language";
+import { Link } from "react-scroll";
 
 const Hero = ({language}) => {
   const [popUpDisplay, setPopUpDisplay] = useState({
@@ -254,9 +255,9 @@ const Hero = ({language}) => {
                 />
               </svg>
               <div>
-                <a href="#" className="home-cta w-button">
+                <Link to="price" spy={true} smooth={true} duration={500} style={{cursor: 'pointer'}} className="home-cta w-button">
                 {lan[language].heroBtn} $CLAIR
-                </a>
+                </Link>
               </div>
             </div>
           </div>
