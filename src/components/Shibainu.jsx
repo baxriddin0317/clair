@@ -36,6 +36,7 @@ const Shibainu = ({language}) => {
             id="w-node-_6dbd065e-9027-9616-78c6-7f39281e706e-85e878c5"
             data-w-id="6dbd065e-9027-9616-78c6-7f39281e706e"
             className="inu-container"
+            style={{marginBottom: "150px"}}
           >
             <img
               src="images/half-circle.png"
