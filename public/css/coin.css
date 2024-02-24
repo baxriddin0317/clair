@@ -1613,6 +1613,9 @@ html input[disabled] {
 }
 
 @media screen and (max-width: 767px) {
+  .shibainu-component {
+    margin-top: -6rem;
+  }
   .block-list .info {
     flex-direction: column;
     align-items: center;
@@ -1931,6 +1934,7 @@ html input[disabled] {
 
   .shibainu-component {
     grid-template-rows: auto;
+    margin-top: 0;
   }
 
   .socials-para {
