@@ -104,8 +104,8 @@ a {
   gap: 5px;
 }
 
-.privacy-section .info h4,
-.block-list .info h4 {
+.privacy-section .info h3,
+.block-list .info h3 {
   text-wrap: nowrap;
   margin: 0;
   color: var(--sky-blue);

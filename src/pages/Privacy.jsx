@@ -16,7 +16,7 @@ const Privacy = ({ language }) => {
           <p>{collection.text}</p>
           {collection.texts.map((item,idx) => (
             <div className="info" key={idx}>
-              <h4>{item.title}</h4>
+              <h3>{item.title}</h3>
               <p>{item.text}</p>
             </div>
           ))}
