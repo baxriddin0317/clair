@@ -1,7 +1,24 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { lan } from "../language";
 
 const Shibainu = ({language}) => {
+  const logo = useRef(null);
+  const [turn, setTurn] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const logoScrollY = logo.current.getBoundingClientRect().top
+
+      logoScrollY/10 < 55 ? setTurn(true) : setTurn(false)
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [])
+
   return (
     <section className="shibainu-section">
       <div className="w-layout-blockcontainer container w-container">
@@ -28,6 +45,7 @@ const Shibainu = ({language}) => {
               id="w-node-_1333e674-9be4-55b1-e7bc-40100738267f-85e878c5"
               loading="lazy"
               srcSet="images/half-circle-p-500.png 500w, images/half-circle.png 506w"
+              style={{opacity: turn ? '1' : '0', transition: "all 0.6s"}}
             />
             <img
               src="images/Hexa_2.gif"
@@ -35,6 +53,7 @@ const Shibainu = ({language}) => {
               id="w-node-_6341c3b9-7e6c-72dd-9266-d7b8edfc8105-85e878c5"
               alt='logos'
               className="inu-gif"
+              style={{opacity: turn ? '1' : '0'}}
             />
             <img
               src="images/shiba-logo.png"
@@ -42,6 +61,7 @@ const Shibainu = ({language}) => {
               id="w-node-_1457c815-f90f-d19b-f975-11de41f0a4ec-85e878c5"
               alt='logos'
               className="inu-logo"
+              ref={logo}
             />
           </div>
           <p
