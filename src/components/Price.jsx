@@ -102,7 +102,7 @@ const Price = ({language}) => {
     const currentTime = Math.floor(Date.now() / 1000);
     setEndTime(endTime && currentTime > endTime);
   }, [getEndTime.data]);
-console.log(usdTotal);
+  
   return (
     <section className="ico-section">
       <div data-aos="fade-up" className="w-layout-blockcontainer container w-container">

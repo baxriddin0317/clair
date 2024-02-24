@@ -97,11 +97,11 @@ export const lan = {
     footerLinks: [
       {
         name: "Privacy",
-        href: "#",
+        href: "/privacy-policy",
       },
       {
         name: "Cookies",
-        href: "#",
+        href: "/cookie-policy",
       },
       {
         name: "Disclaimer",
@@ -209,11 +209,11 @@ export const lan = {
     footerLinks: [
       {
         name: "Privacidad",
-        href: "#",
+        href: "/privacy-policy",
       },
       {
         name: "Cookies",
-        href: "#",
+        href: "/cookie-policy",
       },
       {
         name: "Descargo de responsabilidad",
@@ -320,11 +320,11 @@ export const lan = {
     footerLinks: [
       {
         name: "गोपनीयता",
-        href: "#",
+        href: "/",
       },
       {
         name: "कुकीज़",
-        href: "#",
+        href: "/cookie-policy",
       },
       {
         name: "अस्वीकृति",
@@ -332,5 +332,246 @@ export const lan = {
       },
     ],
     footerInfo: "© 2024 बेबी सिंक्लेयर। सभी अधिकार सुरक्षित हैं",
+  },
+};
+
+export const cookiesLan = {
+  en: {
+    cookies: {
+      title: "Cookies",
+      text: "Welcome to Clairmeme.com, where we strive to enhance your browsing experience in the decentralised and crypto-centric worldz of our website. By exploring our site further, you agree to the use of cookies. ",
+    },
+    what: {
+      title: "What are cookies?",
+      text: "Cookies are small text files that are stored on your device when you visit our website. They help us remember specific details about your visit, such as your preferences, and enable us to optimise your experience, particularly within the cryptocurrency domain.",
+    },
+    how: {
+      title: "How we utilise cookies",
+      texts: [
+        {
+          title: "Essential Cookies: ",
+          text: "These are vital for the proper functioning of our website, especially for blockchain-related features.",
+        },
+        {
+          title: "Performance cookies: ",
+          text: "These assist us in analysing user interactions with our cryptocurrency features, aiding us in enhancing site functionality.",
+        },
+        {
+          title: "Third-Party Cookies: ",
+          text: "We may incorporate third-party cookies to provide additional crypto-related services, like embedded exchange widgets or social media plugins. These cookies are managed by their respective providers and may track your activity across other sites.",
+        },
+        {
+          title: "Crypto Cookies: ",
+          text: "These enable us to offer personalised cryptocurrency experiences, such as remembering your wallet address or preferred tokens.",
+        },
+      ],
+    },
+    managing: {
+      title: "Managing Cookies",
+      text: [
+        "You can manage or delete cookies through your browser settings. However, disabling essential cookies might impact the functionality of certain crypto-related features on the site.",
+        "If you have or this policy within the crypto context, feel free to contact us at contact@clairmeme.com.",
+        "If you have any inquiries or concerns regarding our use of cookies or this policy within the crypto context, feel free to contact us at contact@clairmeme.com.",
+      ],
+    },
+  },
+  es: {
+    cookies: {
+      title: "Cookies",
+      text: "Bienvenido/a a Clairmeme.com, donde nos esforzamos por mejorar tu experiencia de navegación en el mundo descentralizado y centrado en criptomonedas de nuestro sitio web. Al explorar nuestro sitio más a fondo, aceptas el uso de cookies.",
+    },
+    what: {
+      title: "¿Qué son las cookies?",
+      text: "Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo cuando visitas nuestro sitio web. Nos ayudan a recordar detalles específicos sobre tu visita, como tus preferencias, y nos permiten optimizar tu experiencia, especialmente en el ámbito de las criptomonedas.",
+    },
+    how: {
+      title: "Cómo utilizamos las cookies",
+      texts: [
+        {
+          title: "Cookies esenciales: ",
+          text: "Son vitales para el correcto funcionamiento de nuestro sitio web, especialmente para funciones relacionadas con blockchain.",
+        },
+        {
+          title: "Cookies de rendimiento: ",
+          text: "Nos ayudan a analizar las interacciones de los usuarios con nuestras características relacionadas con criptomonedas, ayudándonos a mejorar la funcionalidad del sitio.",
+        },
+        {
+          title: "Cookies de terceros: ",
+          text: "Podemos incorporar cookies de terceros para proporcionar servicios adicionales relacionados con criptomonedas, como widgets de intercambio integrados o complementos de redes sociales. Estas cookies son gestionadas por sus respectivos proveedores y pueden rastrear tu actividad en otros sitios.",
+        },
+        {
+          title: "Cookies de criptomonedas: ",
+          text: "Estas nos permiten ofrecer experiencias personalizadas en criptomonedas, como recordar tu dirección de billetera o tokens preferidos.",
+        },
+      ],
+    },
+    managing: {
+      title: "Gestión de cookies",
+      text: [
+        "Puedes gestionar o eliminar cookies a través de la configuración de tu navegador. Sin embargo, deshabilitar cookies esenciales podría afectar la funcionalidad de ciertas características relacionadas con criptomonedas en el sitio.",
+        "Si tienes alguna pregunta o inquietud sobre nuestro uso de cookies o esta política en el contexto de criptomonedas, no dudes en contactarnos en contact@clairmeme.com.",
+      ],
+    },
+  },
+  hi: {
+    cookies: {
+      title: "कुकीज़",
+      text: "Clairmeme.com में आपका स्वागत है, जहाँ हम अपनी वेबसाइट के डिसेंट्रलाइज्ड और क्रिप्टो-सेंट्रिक विश्व के अनुभव को और बेहतर बनाने का प्रयास करते हैं। हमारी साइट को और अधिक अन्वेषित करके, आप कुकीज़ का उपयोग करने के लिए सहमत होते हैं।",
+    },
+    what: {
+      title: "कुकीज़ होती क्या हैं?",
+      text: "कुकीज़ वे छोटी टेक्स्ट फ़ाइलें हैं जो आपके डिवाइस पर स्टोर की जाती हैं जब आप हमारी वेबसाइट पर जाते हैं। वे हमें आपकी यात्रा के विशिष्ट विवरणों को याद रखने में मदद करती हैं, जैसे कि आपकी पसंदीदा चीज़ें, और हमें आपके अनुभव को अनुकूलित करने की अनुमति देती हैं, विशेषकर क्रिप्टोकरेंसी डोमेन के भीतर।",
+    },
+    how: {
+      title: "हम कुकीज़ कैसे उपयोग करते हैं",
+      texts: [
+        {
+          title: "आवश्यक कुकीज़: ",
+          text: "ये हमारी वेबसाइट के सही काम के लिए महत्वपूर्ण हैं, खासकर ब्लॉकचेन से संबंधित विशेषताओं के लिए।",
+        },
+        {
+          title: "प्रदर्शन कुकीज़: ",
+          text: "ये हमें हमारी क्रिप्टोकरेंसी सुविधाओं के साथ उपयोगकर्ता के इंटरएक्शन का विश्लेषण करने में मदद करती हैं, साइट की कार्यक्षमता में सुधार करने में हमारी सहायक बनती हैं।",
+        },
+        {
+          title: "तिसरे पक्ष कुकीज़: ",
+          text: "हम अतिरिक्त क्रिप्टो-संबंधित सेवाएं प्रदान करने के लिए तिसरे पक्ष कुकीज़ को शामिल कर सकते हैं, जैसे कि एम्बेडेड एक्सचेंज विजेट्स या सोशल मीडिया प्लगइन्स। इन कुकीज़ को उनके संबंधित प्रदाताओं द्वारा प्रबंधित किया जाता है और वे आपकी गतिविधि का ट्रैक कर सकती हैं अन्य साइटों पर।",
+        },
+        {
+          title: "क्रिप्टो कुकीज़: ",
+          text: "ये हमें व्यक्तिगत क्रिप्टोकरेंसी अनुभव प्रदान करने में सक्षम करती हैं, जैसे कि आपकी बटुआ पता या पसंदीदा टोकन्स को याद रखना।",
+        },
+      ],
+    },
+    managing: {
+      title: "कुकीज़ प्रबंधन",
+      text: [
+        "आप अपने ब्राउज़र सेटिंग्स के माध्यम से कुकीज़ को प्रबंधित या हटा सकते हैं। हालांकि, आवश्यक कुकीज़ को अक्षम करना कुछ क्रिप्टो-संबंधित सुविधाओं की कार्यक्षमता पर प्रभाव डाल सकता है।",
+        "यदि आपके पास क्रिप्टो संदर्भ में या इस नीति के बारे में कोई प्रश्न हैं, तो हमसे contact@clairmeme.com पर संपर्क करें।",
+      ],
+    },
+  },
+};
+
+export const privacyLan = {
+  en: {
+    privacy: {
+      title: "Privacy Policy",
+      text: "Welcome to Clairmeme.com, where your privacy is paramount to us. This policy explains what information we collect from you and how we utilise it, ensuring that your private data remains confidential and secure. We pledge never to divulge your personal information to third parties.",
+    },
+    collection: {
+      title: "Data Collection",
+      text: "In our quest to enhance our services, we may collect the following information:",
+      texts: [
+        {
+          title: "Personal Information:",
+          text: "Your name and email, if provided by you.",
+        },
+        {
+          title: "Technical Details:",
+          text: "Including your IP address and browser type.",
+        },
+        {
+          title: "Crypto Details:",
+          text: "such as your wallet addresses.",
+        },
+      ],
+    },
+    utilisation: {
+      title: "Utilisation of Your Data",
+      text: "We harness this information to: Customise your website experience to cater to your needs. Safeguard your data, ensuring its security. Gain insights into your requirements to enhance our website's functio",
+    },
+    security: {
+      title: "Data Security",
+      text: "Rest assured, we implement stringent measures to safeguard your information.",
+    },
+    retention: {
+      title: "Data Retention",
+      text: "We retain your data only for as long as necessary, after which it is promptly deleted. Third-Party Assurance: We commit to never sharing your data with external companies. Your privacy is our utmost priority.",
+    },
+    connect: {
+      title: "Connect with us",
+      text: "Should you have any inquiries or require assistance, please don't hesitate to reach out to us at contact@clairmeme.com. We're here to address any concerns and ensure your peace of mind regarding your privacy.",
+    },
+  },
+  es: {
+    privacy: {
+      title: "Política de privacidad",
+      text: "Bienvenido/a a Clairmeme.com, donde tu privacidad es primordial para nosotros. Esta política explica qué información recopilamos de ti y cómo la utilizamos, asegurando que tus datos privados permanezcan confidenciales y seguros. Nos comprometemos a no divulgar tu información personal a terceros.",
+    },
+    collection: {
+      title: "Recopilación de datos",
+      text: "En nuestra búsqueda por mejorar nuestros servicios, podemos recopilar la siguiente información:",
+      texts: [
+        {
+          title: "Información personal:",
+          text: "Tu nombre y correo electrónico, si proporcionas esta información.",
+        },
+        {
+          title: "Detalles técnicos:",
+          text: "Incluyendo tu dirección IP y tipo de navegador.",
+        },
+        {
+          title: "Detalles de criptomonedas:",
+          text: "Como tus direcciones de billetera.",
+        },
+      ],
+    },
+    utilisation: {
+      title: "Utilización de tus datos",
+      text: "Utilizamos esta información para: Personalizar tu experiencia en el sitio web para satisfacer tus necesidades. Salvaguardar tus datos, asegurando su seguridad. Obtener información sobre tus requisitos para mejorar la funcionalidad de nuestro sitio web.",
+    },
+    security: {
+      title: "Seguridad de datos",
+      text: "Ten la seguridad de que implementamos medidas estrictas para proteger tu información.",
+    },
+    retention: {
+      title: "Retención de datos",
+      text: "Retenemos tus datos solo durante el tiempo necesario, después de lo cual se eliminan rápidamente. Garantía de terceros: Nos comprometemos a no compartir tus datos con empresas externas. Tu privacidad es nuestra máxima prioridad.",
+    },
+    connect: {
+      title: "Conéctate con nosotros",
+      text: "Si tienes alguna pregunta o necesitas asistencia, no dudes en contactarnos en contact@clairmeme.com. Estamos aquí para abordar cualquier inquietud y asegurar tu tranquilidad con respecto a tu privacidad.",
+    },
+  },
+  hi: {
+    privacy: {
+      title: "गोपनीयता नीति",
+      text: "Clairmeme.com में आपका स्वागत है, जहाँ आपकी गोपनीयता हमारे लिए प्रमुख है। यह नीति यह स्पष्ट करती है कि हम आपसे कौन-कौन सी जानकारी कैसे एकत्र करते हैं और हम इसका उपयोग कैसे करते हैं, यह सुनिश्चित करने के लिए कि आपका व्यक्तिगत डेटा गोपनीय और सुरक्षित रहता है। हम यह स्वीकृत करते हैं कि हम कभी भी आपकी व्यक्तिगत जानकारी को तिसरे पक्षों के साथ साझा नहीं करेंगे।",
+    },
+    collection: {
+      title: "डेटा संग्रहण",
+      text: "हमारी सेवाओं को सुधारने के लिए, हम निम्नलिखित जानकारी को एकत्र कर सकते हैं:",
+      texts: [
+        {
+          title: "व्यक्तिगत जानकारी:",
+          text: "आपका नाम और ईमेल, यदि आपने प्रदान किया है।",
+        },
+        {
+          title: "तकनीकी विवरण:",
+          text: "आपका आईपी पता और ब्राउज़र प्रकार सहित।",
+        },
+        {
+          title: "क्रिप्टो विवरण:",
+          text: "आपकी वॉलेट पते जैसा।",
+        },
+      ],
+    },
+    utilisation: {
+      title: "आपके डेटा का उपयोग",
+      text: "हम इस जानकारी का उपयोग करते हैं ताकि: आपके आवश्यकताओं को पूरा करने के लिए अपने वेबसाइट अनुभव को अनुकूलित करें। आपके डेटा की रक्षा करें, इसकी सुरक्षा सुनिश्चित करें। हमारी वेबसाइट के कार्यक्षमता को सुधारने के लिए आपकी आवश्यकताओं का अंतर्निहिता में सूचना प्राप्त करें।",
+    },
+    security: {
+      title: "डेटा सुरक्षा",
+      text: "आप आश्वासन रखें, हम आपकी जानकारी की सुरक्षा के लिए कड़ी उपायों को लागू करते हैं।",
+    },
+    retention: {
+      title: "डेटा भंडारण",
+      text: "हम आपका डेटा केवल उत्तरदाता होने के लिए रखते हैं, जिसके बाद यह शीघ्र हटा दिया जाता है। तीसरे पक्ष की आश्वासन: हम आपका डेटा कभी बाह्य कंपनियों के साथ साझा करने का समर्थन नहीं करेंगे। आपकी गोपनीयता हमारी सर्वोपरि प्राथमिकता है।",
+    },
+    connect: {
+      title: "हमसे जुड़ें",
+      text: "यदि आपके पास कोई प्रश्न हैं या सहायता की आवश्यकता है, तो कृपया हमसे contact@clairmeme.com पर संपर्क करने में संकोच न करें। हम यहाँ हैं ताकि हम किसी भी चिंता का सामना कर सकें और आपकी गोपनीयता के संबंध में आपकी चिंता को सुनिश्चित कर सकें।",
+    },
   },
 };

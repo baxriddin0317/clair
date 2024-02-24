@@ -1,5 +1,6 @@
 import React from "react";
 import { lan } from "../language";
+import { Link } from "react-router-dom";
 
 const Footer = ({language}) => {
   return (

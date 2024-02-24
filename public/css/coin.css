@@ -66,6 +66,62 @@ a {
   text-decoration: none;
 }
 
+.security-section {
+  scroll-padding-top: 100px;
+}
+
+.privacy-section,
+.cookies-section {
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+.block {
+  margin-bottom: 40px;
+}
+
+.privacy-hero,
+.cookies-hero {
+  padding-top: 40px;
+}
+
+.privacy-section h2,
+.cookies-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: var(--sky-blue);
+}
+
+.privacy-section h3,
+.cookies-section h3 {
+  color: var(--sky-blue);
+}
+
+.privacy-section .info,
+.block-list .info {
+  display: flex;
+  align-items: start;
+  gap: 5px;
+}
+
+.privacy-section .info h4,
+.block-list .info h4 {
+  text-wrap: nowrap;
+  margin: 0;
+  color: var(--sky-blue);
+}
+
+.privacy-section .info p,
+.block-list .info p {
+  margin: 0;
+}
+
+.block-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .w-locales-items {
   display: flex;
   flex-direction: column;
@@ -1538,6 +1594,21 @@ html input[disabled] {
 }
 
 @media screen and (max-width: 767px) {
+  .block-list .info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .block-list .info h4 {
+    margin: 0 auto !important;
+  }
+
+  .privacy-section,
+  .cookies-section {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
   .hero-section,
   .container.hero {
     height: auto;
@@ -1727,6 +1798,11 @@ html input[disabled] {
   h2 {
     text-align: center;
     font-size: 26px;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 24px;
   }
 
   p {
@@ -2539,6 +2615,10 @@ input {
     width: calc(100% - 20px);
     margin-right: 10;
   }
+
+  .privacy-section .info {
+    flex-direction: column;
+  }
 }
 
 input::placeholder {
@@ -2582,20 +2662,17 @@ input[type="number"] {
 }
 .home-cta,
 .button {
-    box-shadow: 0 0 0 0 rgba(70, 240, 250, 1);
-    animation: pulsing-outline 2s infinite;
+  box-shadow: 0 0 0 0 rgba(70, 240, 250, 1);
+  animation: pulsing-outline 2s infinite;
 }
 @keyframes pulsing-outline {
- 0% {
-	box-shadow: 0 0 0 0 rgba(70, 240, 250, 0.7);
-	}
-70% {
-	box-shadow: 0 0 0 10px rgba(70, 240, 250, 0);
-	}
-100% {
-	box-shadow: 0 0 0 0 rgba(70, 240, 250, 0);
-	}
-}
-.security-section {
-  scroll-padding-top: 100px;
+  0% {
+    box-shadow: 0 0 0 0 rgba(70, 240, 250, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(70, 240, 250, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(70, 240, 250, 0);
+  }
 }

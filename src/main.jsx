@@ -1,12 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ReactDOM from 'react-dom/client'
-import toast, { Toaster } from 'react-hot-toast';
-import Home from './Home'
+import { Toaster } from 'react-hot-toast';
 import '@rainbow-me/rainbowkit/styles.css';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
 import {
   darkTheme,
   getDefaultWallets,
@@ -22,8 +17,8 @@ import { configureChains, createConfig, WagmiConfig } from "wagmi";
 import {
   sepolia, 
 } from "wagmi/chains";
-import { publicProvider,  } from "wagmi/providers/public";
 import { jsonRpcProvider } from "wagmi/providers/jsonRpc";
+import Layout from "./Layout";
 
 const { chains, publicClient } = configureChains(
   [sepolia],
@@ -66,13 +61,6 @@ const wagmiConfig = createConfig({
   publicClient,
 });
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-]);
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <WagmiConfig config={wagmiConfig}>
@@ -102,7 +90,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             },
           }}
         />
-        <RouterProvider router={router} />
+        <Layout />
         </RainbowKitProvider>
     </WagmiConfig>
   </React.StrictMode>,
