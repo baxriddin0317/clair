@@ -105,7 +105,7 @@ export const lan = {
       },
       {
         name: "Disclaimer",
-        href: "#",
+        href: "https://baby-sinclair.gitbook.io/docs/disclaimer",
       },
     ],
     footerInfo: "© 2024 Baby Sinclair. All rights reserveD",
@@ -217,7 +217,7 @@ export const lan = {
       },
       {
         name: "Descargo de responsabilidad",
-        href: "#",
+        href: "https://baby-sinclair.gitbook.io/docs/disclaimer",
       },
     ],
     footerInfo: "© 2024 Baby Sinclair. Todos los derechos reservados.",
@@ -328,7 +328,7 @@ export const lan = {
       },
       {
         name: "अस्वीकृति",
-        href: "#",
+        href: "https://baby-sinclair.gitbook.io/docs/disclaimer",
       },
     ],
     footerInfo: "© 2024 बेबी सिंक्लेयर। सभी अधिकार सुरक्षित हैं",

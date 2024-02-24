@@ -433,6 +433,7 @@ html input[disabled] {
   grid-auto-columns: 1fr;
   justify-content: center;
   display: grid;
+  margin-top: -9rem
 }
 
 .shiba-para {

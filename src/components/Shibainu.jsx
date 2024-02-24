@@ -9,7 +9,7 @@ const Shibainu = ({language}) => {
     const handleScroll = () => {
       const logoScrollY = logo.current.getBoundingClientRect().top
 
-      logoScrollY/10 < 55 ? setTurn(true) : setTurn(false)
+      logoScrollY/10 < 35 ? setTurn(true) : setTurn(false)
     };
 
     window.addEventListener('scroll', handleScroll);
