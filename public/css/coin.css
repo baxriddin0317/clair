@@ -21,9 +21,24 @@ html {
   outline: 2px solid #3b79c3;
 }
 
+@media screen and (max-width: 1280px){
+  .div-block img {
+    top: 35px;
+  }
+}
+
+@media screen and (max-width: 1120px){
+  .div-block img {
+    top: 55px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .w-layout-blockcontainer {
     max-width: 728px;
+  }
+  .div-block img {
+    top: 0px;
   }
 }
 
