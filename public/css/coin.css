@@ -122,7 +122,8 @@ a {
 .privacy-section .info h3,
 .block-list .info h3 {
   text-wrap: nowrap !important;
-  word-spacing: nowrap;
+  word-spacing: nowrap !important;
+  white-space: nowrap !important;
   margin: 0;
   color: var(--sky-blue);
 }
