@@ -19,7 +19,7 @@ const Cookies = ({ language }) => {
           <div className="block-list">
             {how.texts.map((item,idx) => (
               <div className="info" key={idx}>
-              <h3>{item.title}</h3>
+              <h3 style={{textWrap: "nowrap"}}>{item.title}</h3>
               <p>
                 {item.text}
               </p>
