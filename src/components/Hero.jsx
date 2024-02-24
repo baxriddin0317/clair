@@ -255,7 +255,7 @@ const Hero = ({language}) => {
                 />
               </svg>
               <div>
-                <Link to="price" spy={true} smooth={true} duration={500} style={{cursor: 'pointer'}} className="home-cta w-button">
+                <Link to="price" spy={true} smooth={true} offset={-140} duration={500} style={{cursor: 'pointer'}} className="home-cta w-button">
                 {lan[language].heroBtn} $CLAIR
                 </Link>
               </div>
