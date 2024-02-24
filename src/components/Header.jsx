@@ -24,6 +24,7 @@ const Header = ({setLanguage, language}) => {
   const [open, setOpen] = useState(false);
   const [t, setT] = useState(false);
   const [selectL, setSelectL] = useState('English (United States)')
+  const path = window.location.pathname
 
   const handleSelectLanguage = (id,name) => {
     setSelectL(name);
@@ -80,9 +81,11 @@ const Header = ({setLanguage, language}) => {
               <ul role="list" className="nav-menu-two w-list-unstyled">
                 <li className="menulist">
                   {lan[language].menu.map((item,idx) => (
-                    <Link to={item.href} spy={true} smooth={true} duration={500} className="nav-link" style={{cursor: 'pointer'}} key={idx}>
+                    path === '/' ? <Link to={item.href} spy={true} smooth={true} duration={500} className="nav-link" style={{cursor: 'pointer'}} key={idx}>
                       {item.name}
-                    </Link>
+                    </Link> : <a href={`/#${item.href}`} key={idx} className="nav-link">
+                    {item.name}
+                    </a>
                   ))}
                   <a
                     href="https://baby-sinclair.gitbook.io/docs/"
